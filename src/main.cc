@@ -88,8 +88,8 @@ int main(int argc, char** argv) {
     auto start_time = std::chrono::system_clock::now();
     zdd_with_links.search(solution, 0);
     auto end_time = std::chrono::system_clock::now();
-    printf("num nodes %llu, num solutions %llu, num updates %llu",
-           "%llu msecs\n", ZddWithLinks::num_search_tree_nodes,
+    printf("num nodes %llu, num solutions %llu, num updates %llu, "
+           "time: %llu msecs\n", ZddWithLinks::num_search_tree_nodes,
            ZddWithLinks::num_solutions, ZddWithLinks::num_updates,
            std::chrono::duration_cast<std::chrono::milliseconds>(end_time -
                                                                  start_time)
