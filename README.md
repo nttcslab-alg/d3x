@@ -4,7 +4,7 @@ This is an implementation of algorithm d3x for finding all the solutions of [exa
 
 ## requirements
 - c++ compiler supporting c++17 (gcc, clang)
-- cmake 3.20
+- cmake 3.16
 ## compile
 
 ```bash
